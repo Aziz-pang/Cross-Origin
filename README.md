@@ -2,7 +2,7 @@
 title: "跨域"
 date: 2020-10-08
 draft: false
-tags: ["AJAX", "Promise", "同步与异步", "回调函数"]
+tags: ["cross-origin", "Promise", "跨域", "CORS"]
 categories: ["JavaScript"]
 author: "Aziz 庞之明"
 ---
