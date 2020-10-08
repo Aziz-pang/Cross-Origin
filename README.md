@@ -77,8 +77,8 @@ response.setHeader('Access-Control-Allow-Origin', 'http://hacker.com:9999')
 > 如：将JSON数据赋值或作为函数写入JS文件里，其他域名通过调用JS文件获取数据
 细节：函数名可以随机生成，通过约定俗成的参数名`callback`传给后台
 
-**优点：**兼容IE，可以跨域
-**缺点：**由于是script标签，无法像AJAX识别状态码，查看响应头，只有get不能post只有成功或失败
+**优点：** 兼容IE，可以跨域   
+**缺点：** 由于是script标签，无法像AJAX识别状态码，查看响应头，只有get不能post只有成功或失败
 
 
 详细查看hacker.js与hacker.com下的server.js
